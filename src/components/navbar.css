@@ -1,0 +1,59 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    backdrop-filter: blur(10px);
+    background: #1a1a40;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+@keyframes navbarGradient{
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 255, 200);
+    
+}
+.info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 17px;
+    gap: 30px;
+}
+ .info a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    position: relative;
+    transition: 0.3s ease;
+}
+.info a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -5px;
+    background: cyan;
+    transition: 0.3s;
+}
+
+.info a:hover{
+    color: cyan;
+}
+
+.info a:hover::after{
+    width: 100%;
+}
+.menubar{
+    display: none;
+    
+}

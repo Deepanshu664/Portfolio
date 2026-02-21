@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #1a1a40;
+}
