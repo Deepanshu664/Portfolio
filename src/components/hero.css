@@ -107,7 +107,7 @@
     50%{ border-color: transparent; }
 }
 
-@media (min-width: 412px){
+@media (max-width: 412px){
     .navbar{
         display: flex;
         justify-content: center;
