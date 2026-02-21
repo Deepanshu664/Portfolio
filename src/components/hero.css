@@ -107,7 +107,7 @@
     50%{ border-color: transparent; }
 }
 
-@media (max-width: 450px){
+@media (min-width: 412px){
     .navbar{
         display: flex;
         justify-content: center;
@@ -168,7 +168,7 @@
         left: 10px;
         font-size: 60px;
         font-weight: 700;
-        color: wheat;
+        color: white;
     }
    
 }
