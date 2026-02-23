@@ -89,6 +89,7 @@
     transform: scale(1.1);
 }
 .typing{
+    display: inline-block;
     font-size: 50px;
     width: 0%;
     overflow: hidden;
@@ -96,11 +97,10 @@
     border-right: 3px solid cyan;
     animation: typing 3s steps(20) forwards,
                blink 0.8s infinite;
-              
 }
 
 @keyframes typing{
-    to{ width: 90%; }
+    to{ width: 87%; }
 }
 
 @keyframes blink{
