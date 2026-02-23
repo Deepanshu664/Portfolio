@@ -142,6 +142,9 @@
         display: flex;
         justify-content: flex-start;
     }
+    @keyframes typing {
+        to{width: 90%;};
+    }
     .photo{
         position:absolute;
         top: 110px;
