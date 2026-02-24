@@ -160,10 +160,10 @@
         /* justify-content: center; */
         /* align-items: center; */
     }
-    .write-text span{
+    /* .write-text span{
         display: flex;
         justify-content: center;
-    }
+    } */
     .write-text{
         display: flex;
         flex-direction: column;
@@ -177,7 +177,8 @@
     }
     .btns{
         position: relative;
-        top: 50px;
+        top: 60px;
+        display: inline-block;
     }
     .menubar{
         display: flex;
