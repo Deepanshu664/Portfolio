@@ -179,6 +179,9 @@
         position: relative;
         top: 60px;
         display: inline-block;
+        display: flex;
+        justify-content: space-around;
+
     }
     .menubar{
         display: flex;
