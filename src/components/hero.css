@@ -116,7 +116,7 @@
     .name{
         font-size: 40px;
         position: relative;
-        left: -20px;
+        right: 60px;
     }
     .home-section{
         display: flex;
@@ -137,7 +137,7 @@
         top: 10px;
     }
     .typing{
-        margin-top: 50%;
+        margin-top: 20%;
         font-size: 30px;
         display: inline-block;
         justify-content: center;
@@ -156,16 +156,27 @@
     .write-text p span{
         font-size: 30px;
         display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .write-text span{
+        display: flex;
         justify-content: center;
-        align-items: center;
     }
     .write-text{
         display: flex;
         flex-direction: column;
         gap: 8px;
+        padding: 0px;
+        position: relative;
+        top: 30px;
         /* position: relative; */
         /* justify-content: center; */
        
+    }
+    .btns{
+        position: relative;
+        top: 50px;
     }
     .menubar{
         display: flex;
