@@ -122,7 +122,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         padding: 10px;
     }
     .info{
@@ -130,20 +129,18 @@
     }
     .content{
         width: 80%;
-
         height: 90%;
         
     }
     .write-heading{
-        margin: -25px;
         position: relative;
-        top: 10px;
+        top: 20px;
     }
     .typing{
         margin-top: 20%;
         font-size: 25px;
-        display: flex;
-        justify-content: flex-start;
+        display: inline-flex;
+        justify-content: center;
         align-items: center;
         margin-left: 15px;
        
@@ -164,10 +161,7 @@
         /* justify-content: center; */
         /* align-items: center; */
     }
-    /* .write-text span{
-        display: flex;
-        justify-content: center;
-    } */
+   
     .write-text{
         display: flex;
         flex-direction: column;
@@ -187,7 +181,8 @@
         gap: 6px;
     }
     .btn{
-        padding: 15px;
+        padding: 20px;
+        width: 350px;
     }
     .menubar{
         display: flex;
