@@ -116,7 +116,7 @@
     .name{
         font-size: 40px;
         position: relative;
-        right: 60px;
+        right: 40px;
     }
     .home-section{
         display: flex;
@@ -152,6 +152,7 @@
         top: 110px;
         left: 100px;
         height: 25%;
+        width: 50%;
     }
     .write-text p span{
         font-size: 30px;
