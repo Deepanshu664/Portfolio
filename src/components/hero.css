@@ -121,13 +121,16 @@
     .home-section{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
     .info{
         display: none;
     }
     .content{
         width: 80%;
-        gap:-20px;
+
         height: 90%;
         
     }
@@ -138,11 +141,12 @@
     }
     .typing{
         margin-top: 20%;
-        font-size: 30px;
-        display: inline-block;
-        justify-content: center;
+        font-size: 25px;
+        display: flex;
+        justify-content: flex-start;
         align-items: center;
         margin-left: 15px;
+       
     }
     @keyframes typing {
         to{width: 80%;};
@@ -180,8 +184,10 @@
         top: 60px;
         display: inline-block;
         display: flex;
-        gap: 5px;
-
+        gap: 6px;
+    }
+    .btn{
+        padding: 15px;
     }
     .menubar{
         display: flex;
