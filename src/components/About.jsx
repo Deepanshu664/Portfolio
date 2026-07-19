@@ -16,7 +16,7 @@ py-20
 flex
 items-center
 justify-between
-gap-10
+gap-12
 "
 >
 
@@ -27,16 +27,31 @@ gap-10
 <div className="w-1/2">
 
 
-<h1
+<div className="mb-10">
+
+<p
 className="
-text-5xl
-font-bold
+uppercase
+tracking-[6px]
 text-cyan-400
-mb-8
+font-semibold
+text-sm
 "
 >
 About Me
-</h1>
+</p>
+
+<h2
+className="
+text-5xl
+font-bold
+mt-3
+"
+>
+Who Am I?
+</h2>
+
+</div>
 
 
 
@@ -48,47 +63,60 @@ leading-8
 "
 >
 
-Hi, I'm Deepanshu.
-I am a BCA student and Frontend Developer.
-I create modern, responsive and user-friendly websites.
-Currently I am learning backend development
-and building full stack projects.
+I’m a passionate Frontend Developer currently pursuing my
+Bachelor of Computer Applications (BCA).
+
+I enjoy building modern, responsive and user-friendly web
+applications using React, JavaScript and Tailwind CSS.
+
+Currently, I'm learning Backend Development to become a
+Full Stack Developer and continuously improving my skills
+through real-world projects.
 
 </p>
-
-
-
-<button
-
+<div
 className="
+flex
+gap-10
 mt-10
-px-8
-py-3
-rounded-full
-bg-gradient-to-r
-from-cyan-400
-to-purple-500
-font-bold
-hover:scale-105
-transition
 "
-
 >
 
-Download Resume
+<div>
+<h2 className="text-4xl font-bold text-cyan-400">
+1+
+</h2>
 
-</button>
+<p className="text-gray-400">
+Years Learning
+</p>
+</div>
 
+<div>
+<h2 className="text-4xl font-bold text-cyan-400">
+3+
+</h2>
 
+<p className="text-gray-400">
+Projects
+</p>
+</div>
+
+<div>
+<h2 className="text-4xl font-bold text-cyan-400">
+8+
+</h2>
+
+<p className="text-gray-400">
+Technologies
+</p>
+</div>
+
+</div>
 </div>
 
 
-
-
-
 {/* right cards */}
-
-
 
 <div
 className="
@@ -102,17 +130,31 @@ gap-6
 
 <div
 className="
-p-6
-rounded-xl
-bg-white/10
+p-2
+rounded-2xl
+bg-white/5
+backdrop-blur-lg
 border
-border-cyan-400
+border-cyan-400/30
+hover:border-cyan-400
 hover:-translate-y-2
-transition
+duration-300
+mt-4
 "
 >
 
-🎓 BCA Student
+<div className="text-2xl mb-4">
+🎓
+</div>
+
+<h3 className="text-xl font-bold">
+BCA Student
+</h3>
+
+<p className="text-gray-400 mt-3 leading-6">
+Currently pursuing Bachelor of Computer Applications with
+a strong interest in Web Development.
+</p>
 
 </div>
 
@@ -121,17 +163,30 @@ transition
 
 <div
 className="
-p-6
-rounded-xl
-bg-white/10
+p-2
+rounded-2xl
+bg-white/5
+backdrop-blur-lg
 border
-border-purple-400
+border-purple-400/30
+hover:border-purple-400
 hover:-translate-y-2
-transition
+duration-300
 "
 >
 
-💻 Frontend Developer
+<div className="text-2xl mb-4">
+💻
+</div>
+
+<h3 className="text-xl font-bold">
+Frontend Developer
+</h3>
+
+<p className="text-gray-400 mt-3 leading-6">
+Building responsive and interactive websites using React,
+JavaScript, HTML, CSS and Tailwind CSS.
+</p>
 
 </div>
 
@@ -140,17 +195,30 @@ transition
 
 <div
 className="
-p-6
-rounded-xl
-bg-white/10
+p-3
+rounded-2xl
+bg-white/5
+backdrop-blur-lg
 border
-border-cyan-400
+border-cyan-400/30
+hover:border-cyan-400
 hover:-translate-y-2
-transition
+duration-300
 "
 >
 
-🚀 Learning Backend
+<div className="text-2xl mb-4">
+🚀
+</div>
+
+<h3 className="text-xl font-bold">
+Learning Backend
+</h3>
+
+<p className="text-gray-400 mt-3 leading-6">
+Currently learning Node.js, Express and MySQL to become
+a Full Stack Developer.
+</p>
 
 </div>
 

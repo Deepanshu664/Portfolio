@@ -1,15 +1,15 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Hero from './components/hero' 
+import Navbar from './components/Navbar'
+import Hero from './components/Hero' 
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
-import Contact from './components/contact';
-import About from "./components/About";
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <main className="bg-[#0f172a] text-white">
       <Navbar />
       <Hero />
       <About />
@@ -17,7 +17,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
-    </div>
+    </main>
   )
 }
 

@@ -4,30 +4,43 @@ import React from "react";
 function Navbar() {
 return (
 
-<nav className="
+<nav
+className="
+fixed
+top-0
+left-0
+w-full
+z-50
 flex
-justify-between
 items-center
-px-10
+justify-between
+px-8
+lg:px-16
 py-5
-bg-[#1a1a40]
-backdrop-blur-md
+bg-[#1a1a40]/80
+backdrop-blur-xl
 border-b
 border-white/10
-">
+"
+>
 
 
 {/* logo */}
 
-<div className="
+<a
+href="#home"
+className="
 text-3xl
-font-bold
+font-extrabold
+tracking-wide
 text-cyan-400
-">
-
+hover:text-white
+transition
+duration-300
+"
+>
 Deepanshu
-
-</div>
+</a>
 
 
 
@@ -45,8 +58,18 @@ font-semibold
 <a
 href="#home"
 className="
+relative
 hover:text-cyan-400
 transition
+duration-300
+after:absolute
+after:left-0
+after:-bottom-1
+after:h-[2px]
+after:w-0
+after:bg-cyan-400
+after:transition-all
+hover:after:w-full
 "
 >
 Home
@@ -56,8 +79,18 @@ Home
 <a
 href="#skills"
 className="
+relative
 hover:text-cyan-400
 transition
+duration-300
+after:absolute
+after:left-0
+after:-bottom-1
+after:h-[2px]
+after:w-0
+after:bg-cyan-400
+after:transition-all
+hover:after:w-full
 "
 >
 Skills
@@ -67,8 +100,18 @@ Skills
 <a
 href="#projects"
 className="
+relative
 hover:text-cyan-400
 transition
+duration-300
+after:absolute
+after:left-0
+after:-bottom-1
+after:h-[2px]
+after:w-0
+after:bg-cyan-400
+after:transition-all
+hover:after:w-full
 "
 >
 Projects
@@ -78,8 +121,18 @@ Projects
 <a
 href="#about"
 className="
+relative
 hover:text-cyan-400
 transition
+duration-300
+after:absolute
+after:left-0
+after:-bottom-1
+after:h-[2px]
+after:w-0
+after:bg-cyan-400
+after:transition-all
+hover:after:w-full
 "
 >
 About
@@ -89,8 +142,18 @@ About
 <a
 href="#contact"
 className="
+relative
 hover:text-cyan-400
 transition
+duration-300
+after:absolute
+after:left-0
+after:-bottom-1
+after:h-[2px]
+after:w-0
+after:bg-cyan-400
+after:transition-all
+hover:after:w-full
 "
 >
 Contact
