@@ -27,22 +27,7 @@ max-w-xl
 w-full
 "
 >
-<h1
-className="
-text-5xl
-lg:text-6xl
-font-extrabold
-leading-tight
-whitespace-nowrap
-mb-6
-"
->
-<span className="text-white">Frontend </span>
 
-<span className="text-cyan-400">
-Developer
-</span>
-</h1>
 
         <div className=" text-2xl font-semibold">
           <p className="text-lg text-gray-400">
@@ -55,6 +40,21 @@ font-bold
 mt-2">
 Deepanshu
 </h2>
+<h1
+className="
+text-2xl
+lg:text-6xl
+font-extrabold
+leading-tight
+whitespace-nowrap
+mt-7"
+>
+<span className="text-white">Frontend </span>
+
+<span className="text-cyan-400">
+Developer
+</span>
+</h1>
 
           <p
 className="
@@ -65,7 +65,7 @@ text-gray-400
 max-w-lg
 "
 >
-            I build responsive and modern web applications
+            I build responsive and modern webSite applications
             using React, JavaScript and Tailwind CSS.
           </p>
         </div>

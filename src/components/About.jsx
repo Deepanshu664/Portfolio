@@ -58,8 +58,10 @@ Who Am I?
 <p
 className="
 text-gray-300
-text-lg
-leading-8
+text-md
+lg:text-lg
+leading-11
+lg:leading-8
 "
 >
 
@@ -77,13 +79,15 @@ through real-world projects.
 <div
 className="
 flex
-gap-10
+gap-1
 mt-10
+lg:gap-20
+
 "
 >
 
 <div>
-<h2 className="text-4xl font-bold text-cyan-400">
+<h2 className="text-2xl lg:text-4xl font-bold text-cyan-400">
 1+
 </h2>
 
@@ -93,7 +97,7 @@ Years Learning
 </div>
 
 <div>
-<h2 className="text-4xl font-bold text-cyan-400">
+<h2 className="text-2xl lg:text-4xl font-bold text-cyan-400">
 3+
 </h2>
 
@@ -103,7 +107,7 @@ Projects
 </div>
 
 <div>
-<h2 className="text-4xl font-bold text-cyan-400">
+<h2 className="text-2xl lg:text-4xl font-bold text-cyan-400">
 8+
 </h2>
 
