@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+.turbo
+.parcel-cache
+.vite
+.cache
+.husky
+public
+.git
+coverage

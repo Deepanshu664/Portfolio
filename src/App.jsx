@@ -1,12 +1,22 @@
 import React from 'react'
 import Navbar from './components/navbar'
 import Hero from './components/hero' 
+import Skills from "./components/Skills";
+import Projects from './components/Projects';
+import Contact from './components/contact';
+import About from "./components/About";
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <About />
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
